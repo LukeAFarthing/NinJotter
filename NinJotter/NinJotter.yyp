@@ -3,9 +3,18 @@
   "resourceVersion": "1.6",
   "name": "NinJotter",
   "resources": [
+    {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":2,},
+    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
+    {"id":{"name":"obj_platypus","path":"objects/obj_platypus/obj_platypus.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":4,},
+    {"id":{"name":"fnt_hp","path":"fonts/fnt_hp/fnt_hp.yy",},"order":0,},
+    {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"order":3,},
+    {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
+    {"id":{"name":"spr_platypus","path":"sprites/spr_platypus/spr_platypus.yy",},"order":3,},
+    {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},"order":4,},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -13,14 +22,14 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
