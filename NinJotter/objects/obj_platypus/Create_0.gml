@@ -1,2 +1,4 @@
-hspeed = hsp;
 
+
+hspeed = hsp;
+canattack = true;
