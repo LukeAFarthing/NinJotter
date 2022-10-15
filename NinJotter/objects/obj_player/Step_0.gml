@@ -11,15 +11,29 @@ if (canattack == true) {
 		sprite_index = spr_player_walk;
 		x += hsp;
 		image_xscale = 1;
-	}
-	else if(keyboard_check(vk_left)and (!instance_place(x-112,y-sprite_height/2,obj_block))) {
+	}else if(keyboard_check(vk_left)and (!instance_place(x-112,y-sprite_height/2,obj_block))) {
 		sprite_index = spr_player_walk;
 		x -= hsp;
 		image_xscale = -1;
+	}else {
+		sprite_index = spr_player;}
+		
+	//Sprinting
+	if(keyboard_check(vk_shift)){
+		if (keyboard_check(vk_right) and (!instance_place(x+112,y-sprite_height/2,obj_block))) {
+		sprite_index = spr_player_walk;
+		x += sprint;
+		image_xscale = 1;
+	}else if(keyboard_check(vk_left)and (!instance_place(x-112,y-sprite_height/2,obj_block))) {
+		sprite_index = spr_player_walk;
+		x -= sprint;
+		image_xscale = -1;
+	}else {
+		sprite_index = spr_player;}
+
+	
 	}
-	else {
-		sprite_index = spr_player;
-	}
+	
 
 
 	// Jumping 
@@ -53,3 +67,4 @@ else {
 	hspeed = 0;
 	vspeed = 0;
 }
+

@@ -2,6 +2,5 @@
 // You can write your code in this editor
 
 
-canattack = true;
-
-
+hspeed = hspeed * (-1);
+image_xscale *= -1;
