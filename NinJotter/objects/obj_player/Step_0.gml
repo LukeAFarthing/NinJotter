@@ -11,27 +11,33 @@ if (canattack == true) {
 		sprite_index = spr_player_walk;
 		x += hsp;
 		image_xscale = 1;
+		//image_speed = 10;
 	}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x -= hsp;
 		image_xscale = -1;
+		//image_speed = 10;
 	}else {
-		sprite_index = spr_player;}
+		sprite_index = spr_player;
+		//image_speed = 10;
+	}
 		
 	//Sprinting
 	if(keyboard_check(vk_shift)){
 		if (keyboard_check(vk_right) and (!instance_place(x+100,y,obj_block))) {
-		sprite_index = spr_player_walk;
-		x += sprint;
-		image_xscale = 1;
-	}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
-		sprite_index = spr_player_walk;
-		x -= sprint;
-		image_xscale = -1;
-	}else {
-		sprite_index = spr_player;}
-
-	
+			sprite_index = spr_player_walk;
+			x += sprint;
+			image_xscale = 1;
+			//image_speed = 20;
+		}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
+			sprite_index = spr_player_walk;
+			x -= sprint;
+			image_xscale = -1;
+			//image_speed = 20;
+		}else {
+			sprite_index = spr_player;
+			//image_speed = 10;
+		}
 	}
 	
 
@@ -46,12 +52,12 @@ if (canattack == true) {
 			gravity = 0;
 	}
 	else {
-			gravity = 1;
+			gravity = 1.2;
 	}
 
 	// Limiting  the vspeed 
-	if(vspeed >= 30) {
-		vspeed = 30;
+	if(vspeed >= 50) {
+		vspeed = 50;
 	}
 
 	// Attacking
