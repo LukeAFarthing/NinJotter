@@ -7,11 +7,11 @@ if (hp <= 0){
 
 if (canattack == true) {
 	//Walking
-	if (keyboard_check(vk_right) and (!instance_place(x+112,y-sprite_height/2,obj_block))) {
+	if (keyboard_check(vk_right) and (!instance_place(x+100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x += hsp;
 		image_xscale = 1;
-	}else if(keyboard_check(vk_left)and (!instance_place(x-112,y-sprite_height/2,obj_block))) {
+	}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x -= hsp;
 		image_xscale = -1;
@@ -20,11 +20,11 @@ if (canattack == true) {
 		
 	//Sprinting
 	if(keyboard_check(vk_shift)){
-		if (keyboard_check(vk_right) and (!instance_place(x+112,y-sprite_height/2,obj_block))) {
+		if (keyboard_check(vk_right) and (!instance_place(x+100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x += sprint;
 		image_xscale = 1;
-	}else if(keyboard_check(vk_left)and (!instance_place(x-112,y-sprite_height/2,obj_block))) {
+	}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x -= sprint;
 		image_xscale = -1;
@@ -50,8 +50,8 @@ if (canattack == true) {
 	}
 
 	// Limiting  the vspeed 
-	if(vspeed >= 12) {
-		vspeed = 12;
+	if(vspeed >= 30) {
+		vspeed = 30;
 	}
 
 	// Attacking

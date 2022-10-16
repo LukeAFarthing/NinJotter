@@ -20,14 +20,17 @@
     {"id":{"name":"spr_player_twitch","path":"sprites/spr_player_twitch/spr_player_twitch.yy",},"order":8,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":4,},
     {"id":{"name":"obj_player_attack","path":"objects/obj_player_attack/obj_player_attack.yy",},"order":6,},
+    {"id":{"name":"rm_concept","path":"rooms/rm_concept/rm_concept.yy",},"order":1,},
     {"id":{"name":"spr_fisher_king_kick","path":"sprites/spr_fisher_king_kick/spr_fisher_king_kick.yy",},"order":11,},
     {"id":{"name":"spr_platypus_walk","path":"sprites/spr_platypus_walk/spr_platypus_walk.yy",},"order":6,},
     {"id":{"name":"fnt_hp","path":"fonts/fnt_hp/fnt_hp.yy",},"order":0,},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"order":3,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
+    {"id":{"name":"spr_block_small","path":"sprites/spr_block_small/spr_block_small.yy",},"order":14,},
     {"id":{"name":"obj_fisher_king","path":"objects/obj_fisher_king/obj_fisher_king.yy",},"order":7,},
     {"id":{"name":"spr_platypus","path":"sprites/spr_platypus/spr_platypus.yy",},"order":3,},
     {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},"order":4,},
+    {"id":{"name":"obj_block_small","path":"objects/obj_block_small/obj_block_small.yy",},"order":9,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
@@ -43,6 +46,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_concept","path":"rooms/rm_concept/rm_concept.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
