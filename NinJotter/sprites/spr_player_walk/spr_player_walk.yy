@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_player_walk",
   "bboxMode": 0,
-  "collisionKind": 0,
+  "collisionKind": 1,
   "type": 0,
   "origin": 9,
   "preMultiplyAlpha": false,
