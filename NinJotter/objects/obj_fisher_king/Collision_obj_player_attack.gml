@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (canbedamaged) {
-	hp -= obj_enemy_attack.attackdmg;
-	y -= 150;
+if (canbedamaged == true) {
+	hp -= 20;
 	canbedamaged = false;
-	alarm[0] = 120;
+	canattack = true;
+	alarm[2] = 120;
 }
-

@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "NinJotter",
   "resources": [
+    {"id":{"name":"rm_boss_room","path":"rooms/rm_boss_room/rm_boss_room.yy",},"order":2,},
     {"id":{"name":"spr_enemy_attack","path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},"order":5,},
     {"id":{"name":"spr_fisher_king","path":"sprites/spr_fisher_king/spr_fisher_king.yy",},"order":13,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":2,},
@@ -13,6 +14,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_backround","path":"sprites/spr_backround/spr_backround.yy",},"order":19,},
     {"id":{"name":"obj_cage","path":"objects/obj_cage/obj_cage.yy",},"order":10,},
+    {"id":{"name":"obj_boss_healthbar","path":"objects/obj_boss_healthbar/obj_boss_healthbar.yy",},"order":13,},
     {"id":{"name":"spr_cage","path":"sprites/spr_cage/spr_cage.yy",},"order":15,},
     {"id":{"name":"obj_enemy_attack","path":"objects/obj_enemy_attack/obj_enemy_attack.yy",},"order":5,},
     {"id":{"name":"spr_net","path":"sprites/spr_net/spr_net.yy",},"order":12,},
@@ -28,7 +30,7 @@
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":4,},
     {"id":{"name":"obj_player_attack","path":"objects/obj_player_attack/obj_player_attack.yy",},"order":6,},
     {"id":{"name":"spr_boss_door","path":"sprites/spr_boss_door/spr_boss_door.yy",},"order":17,},
-    {"id":{"name":"rm_concept","path":"rooms/rm_concept/rm_concept.yy",},"order":1,},
+    {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},"order":1,},
     {"id":{"name":"spr_fisher_king_kick","path":"sprites/spr_fisher_king_kick/spr_fisher_king_kick.yy",},"order":11,},
     {"id":{"name":"spr_platypus_walk","path":"sprites/spr_platypus_walk/spr_platypus_walk.yy",},"order":6,},
     {"id":{"name":"fnt_hp","path":"fonts/fnt_hp/fnt_hp.yy",},"order":0,},
@@ -55,7 +57,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_concept","path":"rooms/rm_concept/rm_concept.yy",},},
+    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
+    {"roomId":{"name":"rm_boss_room","path":"rooms/rm_boss_room/rm_boss_room.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (hp <= 0){
-	game_restart()
+	room_restart()
 }
 
 if (canattack == true) {
@@ -74,3 +74,7 @@ else {
 	vspeed = 0;
 }
 
+// Cheats
+if (keyboard_check_pressed(ord("A"))) {
+	global.saved_otters = 4;
+}
