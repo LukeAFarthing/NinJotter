@@ -11,11 +11,13 @@ if (canattack == true) {
 		sprite_index = spr_player_walk;
 		x += hsp;
 		image_xscale = 1;
+		
 		//image_speed = 10;
 	}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
 		sprite_index = spr_player_walk;
 		x -= hsp;
 		image_xscale = -1;
+		
 		//image_speed = 10;
 	}else {
 		sprite_index = spr_player;
@@ -24,15 +26,20 @@ if (canattack == true) {
 		
 	//Sprinting
 	if(keyboard_check(vk_shift)){
+		
 		if (keyboard_check(vk_right) and (!instance_place(x+100,y,obj_block))) {
-			sprite_index = spr_player_walk;
+			sprite_index = spr_player_run;
 			x += sprint;
 			image_xscale = 1;
+			
+			add = current_time/2000;
 			//image_speed = 20;
 		}else if(keyboard_check(vk_left)and (!instance_place(x-100,y,obj_block))) {
-			sprite_index = spr_player_walk;
+			sprite_index = spr_player_run;
 			x -= sprint;
 			image_xscale = -1;
+			
+			add = current_time/2000;
 			//image_speed = 20;
 		}else {
 			sprite_index = spr_player;
