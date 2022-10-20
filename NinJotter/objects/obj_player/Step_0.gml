@@ -73,6 +73,7 @@ if (canattack == true) {
 		canattack = false;
 		alarm[1] = obj_player_attack.attackduration;
 		sprite_index = spr_player_twitch;
+		audio_play_sound(cut, 900, false);
 	}
 }
 
@@ -84,4 +85,9 @@ else {
 // Cheats
 if (keyboard_check_pressed(ord("A"))) {
 	global.saved_otters = 4;
+}
+
+// Game Restart
+if (keyboard_check_pressed(ord("R"))){
+	room_restart();
 }
