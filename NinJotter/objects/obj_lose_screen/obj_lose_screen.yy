@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_title_menu",
+  "name": "obj_lose_screen",
   "spriteId": {
     "name": "spr_title_backround",
     "path": "sprites/spr_title_backround/spr_title_backround.yy",
