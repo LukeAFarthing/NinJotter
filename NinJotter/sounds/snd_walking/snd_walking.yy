@@ -4,7 +4,7 @@
   "name": "snd_walking",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.27,
   "preload": false,
   "bitRate": 64,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_walking.mp3",
-  "duration": 0.496312,
+  "duration": 0.235063,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

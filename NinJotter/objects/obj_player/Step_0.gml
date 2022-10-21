@@ -11,7 +11,9 @@ if (canattack == true) {
 		sprite_index = spr_player_walk;
 		x += hsp;
 		image_xscale = 1;
-		//audio_play_sound(snd_walking, 0, false,1,.30);
+		if (!audio_is_playing(snd_walking)){
+		audio_play_sound(snd_walking, 1000, false);
+		}
 		
 		
 		//image_speed = 10;
@@ -19,7 +21,9 @@ if (canattack == true) {
 		sprite_index = spr_player_walk;
 		x -= hsp;
 		image_xscale = -1;
-		//audio_play_sound(snd_walking, 800, false);
+		if (!audio_is_playing(snd_walking)){
+		audio_play_sound(snd_walking, 1000, false);
+		}
 		
 		//image_speed = 10;
 	}else {
@@ -54,7 +58,9 @@ if (canattack == true) {
 
 	// Jumping 
 	if(keyboard_check(vk_up)){
-		//audio_play_sound(snd_jump, 0, false);
+		if (!audio_is_playing(snd_jump)){
+		audio_play_sound(snd_jump, 1000, false);
+		}
 		if(instance_place(x,y+1,obj_block))
 			vspeed = jump_height;
 	}
