@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (hp <= 0){
-	room_restart()
+	instance_destroy();
 }
 
 if (canattack == true) {
@@ -73,7 +73,7 @@ if (canattack == true) {
 
 	// Attacking
 	if (keyboard_check_pressed(ord("Z"))) {
-		instance_create_layer(x + (400 * image_xscale), y, "Instances", obj_player_attack)
+		instance_create_layer(x + (550 * image_xscale), y, "Instances", obj_player_attack)
 		canattack = false;
 		alarm[1] = obj_player_attack.attackduration;
 		sprite_index = spr_player_twitch;

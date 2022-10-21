@@ -3,5 +3,6 @@
 
 
 canattack = true;
+sprite_index = spr_platypus_walk;
 
 

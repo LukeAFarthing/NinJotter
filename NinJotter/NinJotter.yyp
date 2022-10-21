@@ -34,6 +34,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"obj_hostage","path":"objects/obj_hostage/obj_hostage.yy",},"order":11,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":20,},
+    {"id":{"name":"spr_platypus_scratch","path":"sprites/spr_platypus_scratch/spr_platypus_scratch.yy",},"order":27,},
     {"id":{"name":"obj_net","path":"objects/obj_net/obj_net.yy",},"order":8,},
     {"id":{"name":"spr_hostage","path":"sprites/spr_hostage/spr_hostage.yy",},"order":16,},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"order":18,},
@@ -76,10 +77,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
     {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"roomId":{"name":"rm_boss_room","path":"rooms/rm_boss_room/rm_boss_room.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

@@ -6,4 +6,5 @@ if (canbedamaged == true) {
 	canbedamaged = false;
 	canattack = true;
 	alarm[2] = 120;
+	frames_since_last_attack = 0;
 }
