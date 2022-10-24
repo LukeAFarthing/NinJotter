@@ -76,6 +76,8 @@ if (canattack == true) {
 	if(vspeed >= 50) {
 		vspeed = 50;
 	}
+	
+	if(instance_exists(obj_player)){
 
 	// Attacking
 	if (keyboard_check_pressed(ord("Z"))) {
@@ -84,6 +86,7 @@ if (canattack == true) {
 		alarm[1] = obj_player_attack.attackduration;
 		sprite_index = spr_player_twitch;
 		audio_play_sound(snd_cut, 900, false);
+	}
 	}
 }
 
