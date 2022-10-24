@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_platypus_patroller",
   "spriteId": {
-    "name": "spr_platypus",
-    "path": "sprites/spr_platypus/spr_platypus.yy",
+    "name": "spr_flying_platypus",
+    "path": "sprites/spr_flying_platypus/spr_flying_platypus.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,6 +31,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"patroll_path","varType":5,"value":"path_platypus1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},

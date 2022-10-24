@@ -7,7 +7,7 @@
     "path": "sprites/spr_enemy_attack/spr_enemy_attack.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

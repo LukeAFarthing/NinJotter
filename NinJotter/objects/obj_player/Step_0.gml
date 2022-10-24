@@ -93,8 +93,17 @@ else {
 }
 
 // Cheats
+// Skip saving otters
 if (keyboard_check_pressed(ord("A"))) {
 	global.saved_otters = 4;
+}
+// Full health
+if (keyboard_check_pressed(ord("B"))) {
+	hp = 100;
+}
+// Skip to boss room
+if (keyboard_check_pressed(ord("C"))) {
+	room_goto(3);
 }
 
 // Game Restart
